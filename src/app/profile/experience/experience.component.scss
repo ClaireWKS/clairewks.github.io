@@ -79,7 +79,7 @@ li{
         .timeline-centered .timeline-entry .timeline-entry-inner .timeline-icon i {
           color: #fff; }
         .timeline-centered .timeline-entry .timeline-entry-inner .timeline-icon.color-2 {
-          background: #ec5453; }
+          background: rgb(166, 166, 255);  } /*#ec5453;*/
         .timeline-centered .timeline-entry .timeline-entry-inner .timeline-icon.color-3 {
           background: #f9bf3f; }
         .timeline-centered .timeline-entry .timeline-entry-inner .timeline-icon.color-4 {
@@ -156,4 +156,14 @@ li{
       }
       .timeline-label ul{
         font-size: 16px;font-weight:400; font-family: "Quicksand", Arial, sans-serif;
+      }
+
+      .timeline-label .job-description {
+        color: #545755;
+        font-size: 14px;
+      }
+
+      .timeline-label .job-tech-stack {
+        color: #545755;
+        font-size: 14px;
       }

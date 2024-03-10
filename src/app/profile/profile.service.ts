@@ -181,49 +181,58 @@ export class ProfileService {
     // },
 
   ]
+
+  // Experience in MS SQL Server, Transact SQL, and stored procedures .
+  // Proficient in developing web applications using JavaScript/Typescript, Web Service, JSON, HTML, CSS, MVC and Entity Framework .
+  // Proficient in developing and maintaining API in C#, ASP.NET using Visual Studio .
+  // Create visual report using MS Power BI
+  
   about2 = `Software Developer with 7+ years of experience .
+  Angular, Ionic, C# with MVC Framework, ASP.NET, HTML, JavaScript, CSS, Bootstrap Framework, Azure DevOps . 
+  Git, JSON, NET Core, Restful API, MSSQL, Node JS, RESTful API, Microsoft Azure Cloud, Microsoft Power BI .
   Worked with Software Development Life Cycle(SDLC) and  agile methodologies .
-  Experience in MS SQL Server, Transact SQL, and stored procedures .
-  Proficient in developing web applications using JavaScript/Typescript, Web Service, JSON, HTML, CSS, MVC and Entity Framework .
-  Proficient in developing and maintaining API in C#, ASP.NET using Visual Studio .
-  Create visual report using MS Power BI`
+  Practicing clean code programming (SOLID principles) .
+  Experience in integrating web applications with   third party APIs, libraries and services .
+  Experience in e-commerce web and hybrid mobile app development .
+  5 years’ experience with MS SQL Server RDBMS script writing (Function and Stored procedure with T-SQL) for application development and reporting .
+  Participate in database design and schema development`
 
   about = "Passionate about developing efficient software and constantly learning to get new knowledge."
-  resumeurl = "https://docs.google.com/document/d/1WODFuhIzQw2AXPsjt6f3rs-EDWhdhT8s89fOTrGRh70/edit?usp=sharing"
+  resumeurl = "https://drive.google.com/file/d/1SzP3Lgo-ZhEI3F2XDe5v3Eds8GpiCwWT/view?usp=sharing"
   linkedInUrl = "https://www.linkedin.com/in/claire-wong-kai-shin-a35bab51/";
   skillsData: any = [
     {
       'id': '1',
-      'skill': 'ANGULAR 2+',
+      'skill': 'ANGULAR, JAVASCRIPT',
       'progress': '85%'
     },
     {
       'id': '2',
+      'skill': 'SQL',
+      'progress': '80%'
+      
+    },
+    {
+      'id': '3',
+      'skill': 'C# .NET',
+      'progress': '70%'
+    },
+    {
+      'id': '4',
       'skill': 'NODE JS',
       'progress': '80%'
     },
     {
-      'id': '3',
-      'skill': 'JAVASCRIPT JQUERY',
-      'progress': '80%'
-    },
-    {
-      'id': '4',
-      'skill': 'SQL , MYSQL,MONOGO, FIREBASE',
-      'progress': '75%'
-    },
-    {
       'id': '5',
-      'skill': 'REACT JS',
-      'progress': '75%'
+      'skill': 'IONIC',
+      'progress': '70%'
     },
     {
       'id': '6',
-      'skill': 'PYTHON,JAVA',
-      'progress': '70%'
+      'skill': 'PYTHON',
+      'progress': '20%'
     }
   ];
-
 
   educationData: any = [
     {
@@ -257,24 +266,50 @@ Completed my high school with 78%.`
 Completed my Secondary school with 84%.`
     }
   ];
+
   exprienceData: any = [
     {
       id: 4,
       company: 'Orsted Malaysia',
       location: 'Kuala Lumpur, Malaysia',
-      timeline: 'November 2022 to Present',
+      timeline: 'Nov 2022 to Present',
       role: 'Software Developer',
-      work: 'Working as a full stack developer. Responsible for digitalization to enhance operational efficiency for the energy industry. '
-
+      techStack: 'C#, .NET Core, Angular, Azure Cloud, Power BI, Azure DevOps',
+      description: 'Working as a full stack developer. Responsible for digitalization to enhance operational efficiency for the energy industry and responsible to: ',
+      work: ` 
+      Develop and maintain API, web applications with clean code practice (SOLID principles) .
+      Practice pair programming and code review with developers .
+      Collaborate with Product Owner to define user requirements, technical requirements, and realistic timelines .
+      Work closely with designers and developers to ensure seamless integration of user interfaces and back-end functionality .
+      Collaborate with cross-functional teams to identify potential roadblocks, risks, and mitigations to ensure successful solution delivery .
+      Participate and contribute to technical solution in improving existing applications with latest technology, tools and framework, as well as architecture reviews with application architect .
+      Troubleshooting and resolving technical issues`
     },
     {
       id: 3,
       company: 'Mobile Money Interntional',
       location: 'Selangor, Malaysia',
-      timeline: 'May 2016 to October 2022',
+      timeline: 'May 2016 to Oct 2022',
       role: 'Software Developer',
-      work: `Technologies : Angular , Node JS , MongoDB .
-      Worked on the web applications and mobile application built in Ionic, Angular and C# MVC for mobile payment and remittance service`
+      techStack: 'Angular , Node JS , C# .NET, MSSQL, Ionic ',
+      description: 'Working as a full-stack system engineer involving in remittance and mobile payment service. Experience in development of web and mobile applications, web service and standalone applications, connecting to MS SQL Server.',
+      work: `
+      Script writing to retrieve and manipulate data from MS SQL Server for report creation and application development .
+      Maintaining and enhancing existing Risk Assessment Web Application for compliance team to perform daily operation . 
+      Lead, develop and maintain an onboarding web application integrated with a real identity verification and authentication 
+      service provider .
+      Develop and enhance hybrid mobile application that provide remittance service (iOS and Android) .
+      Lead and develop eCommerce web application, hybrid mobile application for consumer and admin .
+      Develop a restful Web API written in NodeJS to integrate with third party .
+      service (RippleNet Payment service) 
+      Develop a restful Web API written in C# to connect mobile app with database .
+      Develop a restful Web API written in C# to integrate with a third party payment service (JomPAY Payment Service) for e-wallet top up feature .
+      Develop a restful Web API written in NodeJS to integrate with a third party platform (Zoloz) that provides a hosted identity 
+      platform for real identity verification and authentication based on biometrics .
+      Develop a console application written in C# to automate the issuance of invoice to merchants every month by email 
+      `
+
+      
     },
   //   {
   //     id: 2,

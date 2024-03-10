@@ -14,13 +14,14 @@
                                 </div>
 
                                 <div class="timeline-label">
-                                    <h2>{{exp.company}}<span>- &nbsp;{{exp.timeline}}, {{exp.location}}</span></h2>
-                                    <h4> {{exp.role}}</h4>
-                                    
+                                    <h2>{{exp.company}}<span><br>{{exp.location}} ({{exp.timeline}}) </span></h2>
+                                    <h4><strong> {{exp.role}}</strong>
+                                        <span class="job-tech-stack"><br>Tech stack: {{exp.techStack}} </span><br>
+                                        <span class="job-description"><br>{{exp.description}} </span>
+                                    </h4>
                                     <ul>
                                       <li *ngFor="let work of exp.work | split">{{work}}</li>
                                     </ul>
-
                                 </div>
                             </div>
                         </article>
